@@ -1,5 +1,5 @@
 body{
-    background-color:chartreuse;
+    background-color:skyblue;
 }
 .container{
     margin-left: 50px;
@@ -9,20 +9,19 @@ body{
 }
 
 .card{
-    box-shadow: 0 0 26px rgba(46, 34, 34, 0.5);
     overflow: hidden;
     margin-right:20px;
     margin-bottom: 20px;
-    background-image: linear-gradient( 135deg, #3B2667 20%, #BC78EC 100%);
+    background-image: linear-gradient(to right,white,blue);
     height:min-content;
 }
 
 .card-header{
     text-align: center;
-    color: aqua;
-    background-color: black;
+    color: black;
+    background-color: red;
     font-weight: bolder;
-    font-family:sans-serif;
+    font-family:'Times New Roman', Times, serif;
     padding-right: 20px;
 }
 
@@ -33,7 +32,7 @@ img{
 
 .card-body{
     text-align:justify;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     height:100% !important;
     text-decoration: double;
     padding-right: 30px;
